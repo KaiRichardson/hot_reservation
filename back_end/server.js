@@ -2,20 +2,8 @@ var express = require("express");
 var path = require("path");
 
 var reservations = [
-  {
-    ID: "123456",
-    name: "john",
-    phone: "(206) 555-5555",
-    email: "john@john.com"
-  }
 ];
 var waitlist = [
-  {
-    ID: "123456",
-    name: "john",
-    phone: "(206) 555-5555",
-    email: "john@john.com"
-  }
 ];
 
 var app = express();
@@ -46,7 +34,6 @@ app.post("/api/tables", function(req, res) {
 
   newReservations.routeName = newReservations.name;
 
-  // console.log(newReservations);
   if (reservations.length > 4) {
     waitlist.push(newReservations);
   } else {
