@@ -1,0 +1,22 @@
+{
+  "name": "hot_reservation",
+  "version": "1.0.0",
+  "description": "resturant reservation app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaiRichardson/hot_reservation.git"
+  },
+  "author": "Jordynn O Kevin F,Kai R, Kaleb M",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KaiRichardson/hot_reservation/issues"
+  },
+  "homepage": "https://github.com/KaiRichardson/hot_reservation#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
